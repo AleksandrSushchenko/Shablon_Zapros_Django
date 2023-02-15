@@ -20,6 +20,6 @@ from app.views import omlet, pasta
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('omlet', omlet),
-    path('pasta', pasta),
+    path('omlet/', omlet),
+    path('pasta/', pasta),
 ]
